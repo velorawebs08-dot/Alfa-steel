@@ -1,0 +1,6 @@
+{
+  "name": "Alfa Steel",
+  "description": "Manufacturer of Hotel Kitchen Equipment and Stainless Steel Furniture based in Kagal 5 Star MIDC, Maharashtra.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

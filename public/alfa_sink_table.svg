@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" width="100%" height="100%">
+  <!-- Background: Pure white matching the 5th product render style -->
+  <rect width="1200" height="960" fill="#FFFFFF" />
+
+  <defs>
+    <!-- Soft Contact Shadow -->
+    <radialGradient id="sinkGroundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#64748B" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Stainless Steel Linear Gradients -->
+    <linearGradient id="ssSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9" />
+      <stop offset="25%" stop-color="#E2E8F0" />
+      <stop offset="50%" stop-color="#CBD5E1" />
+      <stop offset="75%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <linearGradient id="ssTopRim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="30%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+
+    <linearGradient id="ssBacksplash" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D1D5DB" />
+      <stop offset="40%" stop-color="#E5E7EB" />
+      <stop offset="70%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#9CA3AF" />
+    </linearGradient>
+
+    <linearGradient id="ssBowlInner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="40%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+
+    <linearGradient id="ssLeg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="35%" stop-color="#FFFFFF" />
+      <stop offset="65%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+
+    <linearGradient id="faucetChrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#E2E8F0" />
+      <stop offset="60%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+
+    <linearGradient id="basketBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="50%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. FLOOR SHADOW -->
+  <ellipse cx="580" cy="850" rx="420" ry="40" fill="url(#sinkGroundShadow)" />
+  <ellipse cx="300" cy="880" rx="45" ry="12" fill="#334155" opacity="0.25" />
+  <ellipse cx="490" cy="890" rx="45" ry="12" fill="#334155" opacity="0.25" />
+  <ellipse cx="915" cy="690" rx="40" ry="10" fill="#334155" opacity="0.2" />
+  <ellipse cx="735" cy="640" rx="35" ry="8" fill="#334155" opacity="0.15" />
+
+  <!-- 2. REAR LEGS & FRAME -->
+  <!-- Rear Left Leg -->
+  <g>
+    <path d="M 330 380 L 348 380 L 348 640 L 330 640 Z" fill="url(#ssLeg)" stroke="#94A3B8" stroke-width="1" />
+  </g>
+  <!-- Rear Right Leg -->
+  <g>
+    <path d="M 725 320 L 745 320 L 745 645 L 725 645 Z" fill="url(#ssLeg)" stroke="#94A3B8" stroke-width="1" />
+    <!-- Rear Right Bullet Foot -->
+    <path d="M 724 645 L 746 645 L 743 658 L 727 658 Z" fill="#64748B" />
+  </g>
+
+  <!-- 3. LOWER SHELF & CROSS BRACING -->
+  <g>
+    <!-- Cross rails between legs -->
+    <path d="M 300 660 L 490 535 L 870 595 L 470 765 Z" fill="url(#ssSurface)" stroke="#94A3B8" stroke-width="1.5" />
+    <!-- Lower Undershelf Top Panel -->
+    <polygon points="310,670 485,545 860,605 470,760" fill="#CBD5E1" stroke="#94A3B8" stroke-width="1" />
+    <polygon points="310,670 470,760 470,772 310,682" fill="#94A3B8" />
+    <polygon points="470,760 860,605 860,617 470,772" fill="#64748B" />
+  </g>
+
+  <!-- 4. FRONT LEGS & BULLET FEET -->
+  <!-- Front Left Leg -->
+  <g>
+    <path d="M 285 365 L 310 365 L 310 870 L 285 870 Z" fill="url(#ssLeg)" stroke="#94A3B8" stroke-width="1.5" />
+    <!-- Leg Collar Rings -->
+    <rect x="283" y="475" width="29" height="12" rx="2" fill="#CBD5E1" stroke="#64748B" stroke-width="1" />
+    <rect x="283" y="665" width="29" height="14" rx="2" fill="#CBD5E1" stroke="#64748B" stroke-width="1" />
+    <rect x="283" y="805" width="29" height="14" rx="2" fill="#CBD5E1" stroke="#64748B" stroke-width="1" />
+    <!-- Adjustable Bullet Foot -->
+    <path d="M 286 870 L 309 870 L 305 895 L 290 895 Z" fill="#475569" stroke="#334155" stroke-width="1" />
+  </g>
+
+  <!-- Front Center/Right Support Frame -->
+  <g>
+    <path d="M 465 490 L 490 490 L 490 880 L 465 880 Z" fill="url(#ssLeg)" stroke="#94A3B8" stroke-width="1.5" />
+    <rect x="463" y="535" width="29" height="12" rx="2" fill="#CBD5E1" stroke="#64748B" stroke-width="1" />
+    <rect x="463" y="750" width="29" height="14" rx="2" fill="#CBD5E1" stroke="#64748B" stroke-width="1" />
+    <rect x="463" y="815" width="29" height="14" rx="2" fill="#CBD5E1" stroke="#64748B" stroke-width="1" />
+    <path d="M 466 880 L 489 880 L 485 905 L 470 905 Z" fill="#475569" stroke="#334155" stroke-width="1" />
+  </g>
+
+  <!-- Front Far Right Leg -->
+  <g>
+    <path d="M 905 320 L 928 320 L 928 685 L 905 685 Z" fill="url(#ssLeg)" stroke="#94A3B8" stroke-width="1.5" />
+    <rect x="903" y="380" width="27" height="10" rx="2" fill="#CBD5E1" stroke="#64748B" stroke-width="1" />
+    <rect x="903" y="590" width="27" height="12" rx="2" fill="#CBD5E1" stroke="#64748B" stroke-width="1" />
+    <path d="M 906 685 L 927 685 L 924 705 L 909 705 Z" fill="#475569" stroke="#334155" stroke-width="1" />
+  </g>
+
+  <!-- 5. MAIN SINK BASIN BODY (DEEP UNDERMOUNT BOWL) -->
+  <g>
+    <!-- Outer Deep Sink Bowl Casing -->
+    <path d="M 310 380 L 700 380 L 700 530 C 700 545, 688 555, 672 555 L 330 555 C 318 555, 310 545, 310 530 Z" fill="#94A3B8" stroke="#64748B" stroke-width="1.5" />
+    <path d="M 310 380 L 470 540 L 700 530 L 700 380 Z" fill="#CBD5E1" opacity="0.6" />
+    <!-- Bowl Highlight & Depth Shadow -->
+    <path d="M 320 390 L 465 530 L 465 545 L 320 405 Z" fill="#64748B" opacity="0.4" />
+  </g>
+
+  <!-- 6. TOP WORK SURFACE & MARINE EDGE -->
+  <!-- Rear Splashback Wall -->
+  <g>
+    <polygon points="210,230 730,70 745,75 745,185 210,345" fill="url(#ssBacksplash)" stroke="#94A3B8" stroke-width="1.5" />
+    <!-- Splashback top lip bevel -->
+    <polygon points="208,230 728,70 738,72 218,232" fill="#FFFFFF" opacity="0.9" />
+  </g>
+
+  <!-- Main Countertop Slab -->
+  <g>
+    <!-- Top Face -->
+    <polygon points="210,345 745,185 970,270 460,530" fill="url(#ssSurface)" stroke="#94A3B8" stroke-width="2" />
+    <!-- Front Beveled Edge -->
+    <polygon points="210,345 460,530 460,555 210,370" fill="#94A3B8" stroke="#64748B" stroke-width="1" />
+    <polygon points="460,530 970,270 970,290 460,555" fill="#64748B" stroke="#475569" stroke-width="1" />
+    
+    <!-- Marine Drip Groove / Anti-Spill Lip along perimeter -->
+    <polyline points="225,355 460,518 950,278" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.8" />
+    <polyline points="224,357 460,520 950,280" fill="none" stroke="#94A3B8" stroke-width="1.5" />
+  </g>
+
+  <!-- 7. INNER SINK WELL (DEEP RECTANGULAR SINK COMPARTMENT) -->
+  <g>
+    <!-- Inner Bowl Opening Cutout -->
+    <polygon points="310,335 680,225 690,360 480,480 310,400" fill="url(#ssBowlInner)" stroke="#475569" stroke-width="2" />
+    
+    <!-- Left Inner Wall -->
+    <polygon points="310,335 310,400 370,440 370,365" fill="#64748B" />
+    <!-- Back Inner Wall -->
+    <polygon points="310,335 680,225 650,290 370,365" fill="#475569" />
+    <!-- Bottom of Basin Floor -->
+    <polygon points="370,365 650,290 640,390 440,460" fill="#94A3B8" stroke="#64748B" stroke-width="1" />
+    <!-- Drain Ring in Basin Center -->
+    <ellipse cx="510" cy="385" rx="22" ry="12" fill="#334155" stroke="#E2E8F0" stroke-width="2" />
+    <ellipse cx="510" cy="385" rx="14" ry="7" fill="#0F172A" />
+
+    <!-- Removable Drying Grid / Dish Basket (Blue/Slate) in Sink -->
+    <g>
+      <!-- Outer Basket Frame -->
+      <polygon points="305,340 450,295 490,410 370,450" fill="url(#basketBlue)" stroke="#334155" stroke-width="1.5" />
+      <!-- Grid Slats -->
+      <line x1="330" y1="345" x2="385" y2="440" stroke="#CBD5E1" stroke-width="3" />
+      <line x1="355" y1="335" x2="410" y2="430" stroke="#CBD5E1" stroke-width="3" />
+      <line x1="380" y1="325" x2="435" y2="420" stroke="#CBD5E1" stroke-width="3" />
+      <line x1="405" y1="315" x2="460" y2="410" stroke="#CBD5E1" stroke-width="3" />
+      <!-- Top Rail Handle -->
+      <path d="M 305 340 L 370 450" stroke="#60A5FA" stroke-width="4" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- 8. RIGHT DRAINBOARD FLUTES & RUNNERS -->
+  <g stroke="#94A3B8" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="690" y1="260" x2="890" y2="280" />
+    <line x1="680" y1="285" x2="880" y2="305" />
+    <line x1="670" y1="310" x2="870" y2="330" />
+    <line x1="660" y1="335" x2="860" y2="355" />
+    <line x1="650" y1="360" x2="850" y2="380" />
+    <line x1="640" y1="385" x2="840" y2="405" />
+  </g>
+
+  <!-- 9. CHROME COMMERCIAL GOOSENECK FAUCET -->
+  <g>
+    <!-- Deck Mount Flange Base -->
+    <ellipse cx="420" cy="275" rx="16" ry="8" fill="#475569" stroke="#94A3B8" stroke-width="1.5" />
+    <ellipse cx="420" cy="271" rx="14" ry="6" fill="#E2E8F0" />
+    <!-- Vertical Faucet Base Cylinder -->
+    <path d="M 408 270 L 432 270 L 432 210 L 408 210 Z" fill="url(#faucetChrome)" stroke="#64748B" stroke-width="1" />
+    <!-- Single Lever Mixer Handle -->
+    <path d="M 425 240 L 450 250 L 450 242 L 425 234 Z" fill="#E2E8F0" stroke="#475569" stroke-width="1" />
+    
+    <!-- High Arched Gooseneck Spout -->
+    <path d="
+      M 420 210
+      L 420 125
+      C 420 70, 480 70, 480 120
+      L 480 160
+    " fill="none" stroke="url(#faucetChrome)" stroke-width="16" stroke-linecap="round" />
+    <!-- Highlight shine on spout -->
+    <path d="
+      M 417 210
+      L 417 125
+      C 417 76, 474 76, 474 120
+      L 474 158
+    " fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.9" />
+
+    <!-- Aerator / Spout Tip -->
+    <rect x="470" y="160" width="20" height="14" rx="3" fill="#64748B" stroke="#334155" stroke-width="1" />
+    <ellipse cx="480" cy="174" rx="8" ry="3" fill="#1E293B" />
+  </g>
+
+  <!-- 10. POLISHED CHROME HIGHLIGHTS -->
+  <line x1="210" y1="345" x2="745" y2="185" stroke="#FFFFFF" stroke-width="2" opacity="0.9" />
+  <line x1="285" y1="380" x2="285" y2="860" stroke="#FFFFFF" stroke-width="2" opacity="0.7" />
+  <line x1="465" y1="510" x2="465" y2="870" stroke="#FFFFFF" stroke-width="2" opacity="0.7" />
+</svg>

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="100%" height="100%">
+  <!-- 1. GREY 3-TIER STEPPED PEDESTAL BACKGROUND (#BFC1C5) -->
+  <g fill="#BFC1C5">
+    <!-- Left Step -->
+    <rect x="110" y="195" width="175" height="115" />
+    <!-- Center Elevated Step -->
+    <rect x="285" y="50" width="425" height="260" />
+    <!-- Right Step -->
+    <rect x="710" y="195" width="180" height="115" />
+    <!-- Bottom Baseline Shelf -->
+    <rect x="110" y="275" width="780" height="35" />
+  </g>
+
+  <!-- 2. ROYAL BLUE 'Alfa' WORDMARK (#005EE6) -->
+  <g fill="#005EE6">
+    <!-- Letter 'A' (Rounded arch crown, upper window, solid mid-crossbar, open lower legs) -->
+    <path fill-rule="evenodd" d="
+      M 175 305
+      L 175 160
+      C 175 80, 215 65, 275 65
+      C 335 65, 375 80, 375 160
+      L 375 305
+      L 322 305
+      L 322 245
+      L 228 245
+      L 228 305
+      Z
+      M 228 190
+      L 322 190
+      L 322 155
+      C 322 110, 305 105, 275 105
+      C 245 105, 228 110, 228 155
+      Z"
+    />
+
+    <!-- Letter 'l' (Bold vertical pillar) -->
+    <rect x="405" y="70" width="70" height="235" />
+
+    <!-- Letter 'f' (Tall vertical stem, sweeping curved top hood, mid-height crossbar) -->
+    <path fill-rule="evenodd" d="
+      M 505 305
+      L 505 70
+      C 565 70, 625 80, 625 140
+      L 570 140
+      C 570 115, 555 110, 538 110
+      L 538 158
+      L 625 158
+      L 625 210
+      L 565 210
+      L 565 305
+      Z"
+    />
+
+    <!-- Letter 'a' (Lowercase bold circular bowl with circular counter and solid right vertical stem) -->
+    <path fill-rule="evenodd" d="
+      M 645 190
+      C 645 115, 695 70, 770 70
+      C 845 70, 890 115, 890 185
+      L 890 305
+      L 828 305
+      L 828 285
+      C 810 302, 785 310, 755 310
+      C 690 310, 645 258, 645 190
+      Z
+      M 828 185
+      L 828 180
+      C 828 145, 805 120, 770 120
+      C 735 120, 712 145, 712 185
+      C 712 225, 735 250, 770 250
+      C 805 250, 828 225, 828 185
+      Z"
+    />
+  </g>
+
+  <!-- 3. SOLID BLACK 'S T E E L' TEXT (#000000) -->
+  <g fill="#000000">
+    <!-- S -->
+    <path d="
+      M 245 370
+      C 238 358, 222 350, 204 350
+      C 184 350, 172 360, 172 372
+      C 172 384, 185 391, 207 396
+      C 238 403, 258 415, 258 437
+      C 258 461, 234 478, 202 478
+      C 175 478, 153 463, 143 448
+      L 168 428
+      C 178 440, 188 448, 202 448
+      C 216 448, 228 440, 228 428
+      C 228 416, 213 411, 194 406
+      C 162 396, 143 384, 143 362
+      C 143 338, 168 318, 204 318
+      C 226 318, 246 328, 258 340
+      Z"
+    />
+
+    <!-- T -->
+    <path d="
+      M 315 322
+      L 408 322
+      L 408 348
+      L 377 348
+      L 377 475
+      L 347 475
+      L 347 348
+      L 315 348
+      Z"
+    />
+
+    <!-- E (1) -->
+    <path d="
+      M 465 322
+      L 550 322
+      L 550 348
+      L 497 348
+      L 497 380
+      L 542 380
+      L 542 405
+      L 497 405
+      L 497 449
+      L 552 449
+      L 552 475
+      L 465 475
+      Z"
+    />
+
+    <!-- E (2) -->
+    <path d="
+      M 590 322
+      L 675 322
+      L 675 348
+      L 622 348
+      L 622 380
+      L 667 380
+      L 667 405
+      L 622 405
+      L 622 449
+      L 677 449
+      L 677 475
+      L 590 475
+      Z"
+    />
+
+    <!-- L -->
+    <path d="
+      M 715 322
+      L 745 322
+      L 745 449
+      L 802 449
+      L 802 475
+      L 715 475
+      Z"
+    />
+  </g>
+</svg>
