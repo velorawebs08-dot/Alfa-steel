@@ -3,7 +3,6 @@ import { LanguageProvider } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
-import { WhatWeManufacture } from './components/WhatWeManufacture';
 import { ProductCategories } from './components/ProductCategories';
 import { ManufacturingProcess } from './components/ManufacturingProcess';
 import { FactoryInfrastructure } from './components/FactoryInfrastructure';
@@ -49,10 +48,7 @@ function MainApp() {
         {/* 3. About Alfa Steel */}
         <About />
 
-        {/* 4. What We Manufacture */}
-        <WhatWeManufacture />
-
-        {/* 5. Product Categories */}
+        {/* 4. Product Categories */}
         <ProductCategories onSelectForQuote={handleSelectProductForQuote} />
 
         {/* 6. Manufacturing Process */}
