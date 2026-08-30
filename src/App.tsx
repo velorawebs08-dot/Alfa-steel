@@ -7,6 +7,7 @@ import { ProductCategories } from './components/ProductCategories';
 import { ManufacturingProcess } from './components/ManufacturingProcess';
 import { FactoryInfrastructure } from './components/FactoryInfrastructure';
 import { ProjectsGallery } from './components/ProjectsGallery';
+import { Cart360Viewer } from './components/Cart360Viewer';
 import { IndustriesWeServe } from './components/IndustriesWeServe';
 import { WhyChooseUs } from './components/WhyChooseUs';
 import { RequestQuote } from './components/RequestQuote';
@@ -60,7 +61,10 @@ function MainApp() {
         {/* 8. Projects & Work Gallery */}
         <ProjectsGallery />
 
-        {/* 9. Industries We Serve */}
+        {/* 9. 360° Interactive Product View */}
+        <Cart360Viewer onOpenQuoteModal={handleOpenQuote} />
+
+        {/* 10. Industries We Serve */}
         <IndustriesWeServe />
 
         {/* 10. Why Choose Alfa Steel */}

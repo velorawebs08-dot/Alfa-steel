@@ -270,6 +270,29 @@ export const translations = {
       viewPhoto: 'Zoom Image',
     },
 
+    // 360 Degree View Section
+    cart360: {
+      badge: 'Interactive 360° Showcase',
+      heading: 'Explore the Cart in 360°',
+      subtitle: 'Drag left or right to view this custom stainless steel food cart from every angle.',
+      dragHint: 'Drag to rotate',
+      autoSpin: 'Auto Spin',
+      pauseSpin: 'Pause Spin',
+      rotateLeft: 'Rotate Left',
+      rotateRight: 'Rotate Right',
+      specTitle: 'Custom Stainless Steel Food Kiosk Cart',
+      specSubtitle: 'Precision fabricated at Alfa Steel with commercial-grade stainless steel, hydraulic canopy, and heavy-duty mobility.',
+      specs: [
+        { label: 'Material Grade', val: 'Food-Grade SS 304 / SS 202' },
+        { label: 'Roof Canopy', val: 'Terracotta Gabled Roof with Decorative Trim' },
+        { label: 'Counters', val: 'Front & Side Fold-Out Serving Flaps' },
+        { label: 'Mobility', val: 'Heavy-Duty 360° Caster Wheels + Locking Brakes' },
+        { label: 'Customization', val: 'Custom Sizing, Burner Cutouts & Branding' },
+      ],
+      quoteBtn: 'Request Quote for This Cart',
+      whatsappBtn: 'Enquire on WhatsApp',
+    },
+
     // Industries We Serve
     industries: {
       badge: 'Client Sectors',
@@ -763,6 +786,29 @@ export const translations = {
       itemsCount: 'प्रकल्प उपलब्ध',
       inquireWhatsApp: 'व्हॉट्सॲपवर चौकशी करा',
       viewPhoto: 'मोठा फोटो पहा',
+    },
+
+    // 360 Degree View Section
+    cart360: {
+      badge: '३६०° परस्परसंवादी दृश्य',
+      heading: 'Explore the Cart in 360°',
+      subtitle: 'Drag left or right to view this custom stainless steel food cart from every angle.',
+      dragHint: 'फिरवण्यासाठी डावीकडे किंवा उजवीकडे ड्रॅग करा',
+      autoSpin: 'ऑटो स्पिन',
+      pauseSpin: 'स्पिन थांबवा',
+      rotateLeft: 'डावीकडे फिरवा',
+      rotateRight: 'उजवीकडे फिरवा',
+      specTitle: 'कस्टम स्टेनलेस स्टील फूड किऑस्क कार्ट',
+      specSubtitle: 'अल्फा स्टीलमध्ये उत्पादित केलेले दर्जेदार स्टेनलेस स्टील, कॅनोपी रूफ आणि हेवी मोबिलिटी असलेले फूड कार्ट.',
+      specs: [
+        { label: 'मटेरियल ग्रेड', val: 'फूड-ग्रेड SS 304 / SS 202' },
+        { label: 'कॅनोपी रूफ', val: 'टेराकोटा गॅबल्ड रूफ विथ डिझायनर व्हालन्स' },
+        { label: 'काउंटर्स', val: 'पुढील व बाजूचे फोल्ड-आउट सर्व्हिस शेल्फ' },
+        { label: 'मोबिलिटी', val: '३६०° हेवी-ड्युटी कॅस्टर चाके + लॉकिंग ब्रेक्स' },
+        { label: 'कस्टमायझेशन', val: 'कस्टम आकार, बर्नर कटआउट्स व ब्रँडिंग' },
+      ],
+      quoteBtn: 'या कार्टसाठी कोटेशन मागा',
+      whatsappBtn: 'व्हॉट्सॲपवर चौकशी करा',
     },
 
     // Industries We Serve
