@@ -373,7 +373,7 @@ export const Cart360Viewer: React.FC<Cart360ViewerProps> = ({ onOpenQuoteModal }
               {!isReady && (
                 <div className="absolute inset-0 bg-white/90 backdrop-blur-xs z-30 flex flex-col items-center justify-center gap-2 text-xs font-semibold text-slate-700">
                   <Loader2 className="w-5 h-5 text-[#0062D2] animate-spin" />
-                  <span>Loading 360° frames ({imagesLoadedCount}/{TOTAL_FRAMES})...</span>
+                  <span>Loading 360° view...</span>
                 </div>
               )}
             </div>
@@ -427,8 +427,8 @@ export const Cart360Viewer: React.FC<Cart360ViewerProps> = ({ onOpenQuoteModal }
                 </button>
               </div>
 
-              {/* 9 Angle Quick Step Selector Pills */}
-              <div className="flex items-center gap-1 overflow-x-auto py-1">
+              {/* Angle Position Dot Indicators (no numbers) */}
+              <div className="flex items-center gap-1.5 overflow-x-auto py-1">
                 {CART_FRAMES.map((frame, index) => {
                   const isActive = index === currentFrameIndex;
                   return (
@@ -436,15 +436,13 @@ export const Cart360Viewer: React.FC<Cart360ViewerProps> = ({ onOpenQuoteModal }
                       key={frame.angle}
                       type="button"
                       onClick={() => handleSelectFrame(index)}
-                      title={`Frame ${index + 1}`}
-                      className={`w-5 sm:w-6 h-5 sm:h-6 rounded-full text-[10px] font-mono font-bold flex items-center justify-center transition-all cursor-pointer ${
+                      aria-label={`Angle ${index + 1}`}
+                      className={`transition-all duration-200 cursor-pointer rounded-full ${
                         isActive
-                          ? 'bg-[#0062D2] text-white scale-110 shadow-xs'
-                          : 'bg-white border border-slate-200 text-slate-500 hover:bg-slate-100 hover:text-slate-800'
+                          ? 'w-5 h-2 bg-[#0062D2] shadow-xs'
+                          : 'w-2 h-2 bg-slate-300 hover:bg-slate-400'
                       }`}
-                    >
-                      {index + 1}
-                    </button>
+                    />
                   );
                 })}
               </div>
